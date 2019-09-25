@@ -60,7 +60,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -102,7 +102,7 @@
   )
 
   (module npfa-gdbg:F_beta_mask_403dpi (layer F.Cu) (tedit 0) (tstamp 5D8B2637)
-    (at 92.5 77.5)
+    (at 89.25 77.5)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -156,7 +156,7 @@
   )
 
   (module npfa-gdbg:F_silk_403dpi (layer F.Cu) (tedit 0) (tstamp 5D8B25B3)
-    (at 92.5 77.5)
+    (at 89.25 77.5)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -228,7 +228,7 @@
   )
 
   (module npfa-gdbg:F_gamma_eng_fp_403dpi (layer F.Cu) (tedit 0) (tstamp 5D8B2594)
-    (at 92.5 77.5)
+    (at 89.25 77.5)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -265,11 +265,11 @@
   )
 
   (gr_line (start 135 50) (end 50 50) (layer Edge.Cuts) (width 0.05) (tstamp 5D8B25B4))
-  (gr_line (start 135 105) (end 135 50) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 131.75 105) (end 131.75 50) (layer Edge.Cuts) (width 0.05) (tstamp 5D8ADEC8))
   (gr_line (start 50 105) (end 135 105) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 50 50) (end 50 105) (layer Edge.Cuts) (width 0.05))
-  (dimension 55 (width 0.15) (layer Dwgs.User)
-    (gr_text "55.000 mm" (at 146.3 77.5 270) (layer Dwgs.User)
+  (dimension 55 (width 0.15) (layer Dwgs.User) (tstamp 5D8ADEC3)
+    (gr_text "55.000 mm" (at 146.3 77.5 270) (layer Dwgs.User) (tstamp 5D8ADEC4)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 140 105) (xy 145.586421 105)))
@@ -293,22 +293,22 @@
     (arrow2b (pts (xy 50 40) (xy 51.126504 39.413579)))
   )
   (gr_line (start 135 50) (end 50 50) (layer Dwgs.User) (width 0.15) (tstamp 5D8AD3FA))
-  (gr_line (start 135 105) (end 135 50) (layer Dwgs.User) (width 0.15))
+  (gr_line (start 131.75 105) (end 131.75 50) (layer Dwgs.User) (width 0.15) (tstamp 5D8ADECB))
   (gr_line (start 50 105) (end 135 105) (layer Dwgs.User) (width 0.15))
   (gr_line (start 50 50) (end 50 105) (layer Dwgs.User) (width 0.15))
 
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D8ADECE) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 97.25 77.5) (xy 115.25 95.5) (xy 124.25 86.5) (xy 106.25 68.5)
+        (xy 94 77.5) (xy 112 95.5) (xy 121 86.5) (xy 103 68.5)
       )
     )
     (filled_polygon
       (pts
-        (xy 124.070394 86.5) (xy 115.25 95.320394) (xy 97.429606 77.5) (xy 106.25 68.679606)
+        (xy 120.820394 86.5) (xy 112 95.320394) (xy 94.179606 77.5) (xy 103 68.679606)
       )
     )
   )
