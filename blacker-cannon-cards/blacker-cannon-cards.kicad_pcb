@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 14)
+    (drawings 15)
     (tracks 0)
     (zones 0)
     (modules 7)
@@ -15142,6 +15142,9 @@
       (xy 13.779922 -9.004775) (xy 18.282034 -4.502332)) (layer F.Mask) (width 0.01))
   )
 
+  (gr_text JLCJLCJLCJLC (at 59 103.5) (layer B.SilkS)
+    (effects (font (size 0.83 0.83) (thickness 0.2)) (justify mirror))
+  )
   (gr_arc (start 130 100) (end 130 105) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 55 100) (end 50 100) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 130 55) (end 135 55) (angle -90) (layer Edge.Cuts) (width 0.05))
