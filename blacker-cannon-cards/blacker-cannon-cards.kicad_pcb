@@ -102,7 +102,7 @@
   )
 
   (module npfa-gdbg:F_beta_mask_403dpi (layer F.Cu) (tedit 0) (tstamp 5D8B2637)
-    (at 89.25 77.5)
+    (at 91.25 77.5)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -155,8 +155,8 @@
       (xy 22.81588 0.031183) (xy 27.306741 -4.459348) (xy 31.797601 -8.949878) (xy 40.746813 0)) (layer F.Mask) (width 0.01))
   )
 
-  (module npfa-gdbg:F_silk_403dpi (layer F.Cu) (tedit 0) (tstamp 5D8B25B3)
-    (at 89.25 77.5)
+  (module npfa-gdbg:F_silk_403dpi (layer F.Cu) (tedit 0) (tstamp 5D8AE171)
+    (at 91.25 77.5)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -228,7 +228,7 @@
   )
 
   (module npfa-gdbg:F_gamma_eng_fp_403dpi (layer F.Cu) (tedit 0) (tstamp 5D8B2594)
-    (at 89.25 77.5)
+    (at 91.25 77.5)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -264,12 +264,12 @@
       (xy 13.779922 -9.004775) (xy 18.282034 -4.502332)) (layer F.Mask) (width 0.01))
   )
 
-  (gr_line (start 135 50) (end 50 50) (layer Edge.Cuts) (width 0.05) (tstamp 5D8B25B4))
-  (gr_line (start 131.75 105) (end 131.75 50) (layer Edge.Cuts) (width 0.05) (tstamp 5D8ADEC8))
-  (gr_line (start 50 105) (end 135 105) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 135 50) (end 50 50) (layer Edge.Cuts) (width 0.05) (tstamp 5D8ADF72))
+  (gr_line (start 135 105) (end 135 50) (layer Edge.Cuts) (width 0.05) (tstamp 5D8ADF75))
+  (gr_line (start 50 105) (end 135 105) (layer Edge.Cuts) (width 0.05) (tstamp 5D8ADF7E))
   (gr_line (start 50 50) (end 50 105) (layer Edge.Cuts) (width 0.05))
-  (dimension 55 (width 0.15) (layer Dwgs.User) (tstamp 5D8ADEC3)
-    (gr_text "55.000 mm" (at 146.3 77.5 270) (layer Dwgs.User) (tstamp 5D8ADEC4)
+  (dimension 55 (width 0.15) (layer Dwgs.User) (tstamp 5D8ADF6D)
+    (gr_text "55.000 mm" (at 146.3 77.5 270) (layer Dwgs.User) (tstamp 5D8ADF6E)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 140 105) (xy 145.586421 105)))
@@ -280,8 +280,8 @@
     (arrow2a (pts (xy 145 50) (xy 144.413579 51.126504)))
     (arrow2b (pts (xy 145 50) (xy 145.586421 51.126504)))
   )
-  (dimension 85 (width 0.15) (layer Dwgs.User)
-    (gr_text "85.000 mm" (at 92.5 38.7) (layer Dwgs.User)
+  (dimension 85 (width 0.15) (layer Dwgs.User) (tstamp 5D8ADF52)
+    (gr_text "85.000 mm" (at 92.5 38.7) (layer Dwgs.User) (tstamp 5D8ADF53)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 135 45) (xy 135 39.413579)))
@@ -292,23 +292,23 @@
     (arrow2a (pts (xy 50 40) (xy 51.126504 40.586421)))
     (arrow2b (pts (xy 50 40) (xy 51.126504 39.413579)))
   )
-  (gr_line (start 135 50) (end 50 50) (layer Dwgs.User) (width 0.15) (tstamp 5D8AD3FA))
-  (gr_line (start 131.75 105) (end 131.75 50) (layer Dwgs.User) (width 0.15) (tstamp 5D8ADECB))
-  (gr_line (start 50 105) (end 135 105) (layer Dwgs.User) (width 0.15))
+  (gr_line (start 135 50) (end 50 50) (layer Dwgs.User) (width 0.15) (tstamp 5D8ADF78))
+  (gr_line (start 135 105) (end 135 50) (layer Dwgs.User) (width 0.15) (tstamp 5D8ADF81))
+  (gr_line (start 50 105) (end 135 105) (layer Dwgs.User) (width 0.15) (tstamp 5D8ADF7B))
   (gr_line (start 50 50) (end 50 105) (layer Dwgs.User) (width 0.15))
 
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D8ADECE) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D8ADF84) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 94 77.5) (xy 112 95.5) (xy 121 86.5) (xy 103 68.5)
+        (xy 95.99729 77.50271) (xy 113.99729 95.50271) (xy 122.99729 86.50271) (xy 104.99729 68.50271)
       )
     )
     (filled_polygon
       (pts
-        (xy 120.820394 86.5) (xy 112 95.320394) (xy 94.179606 77.5) (xy 103 68.679606)
+        (xy 122.817684 86.50271) (xy 113.99729 95.323104) (xy 96.176896 77.50271) (xy 104.99729 68.682316)
       )
     )
   )
